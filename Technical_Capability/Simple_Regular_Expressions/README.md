@@ -1,9 +1,14 @@
 # Simple Regular Expressions
 
-Learning material: https://regexone.com/
+## Test Engineer
+
+Complete the exercises and the problems: https://regexone.com/
+
 Interactive regex checker: https://regexr.com/
 
-#### Exercise 1: Extract advert ID from URL:
+Can also use Notepad++ and UltraEdit to test regular expressions.
+
+### Exercise 1: Capture job id from the URLs:
 
 http://www.jobsite.co.uk/job/application-support-analyst-959210879?src=search&tmpl=sem&sctr=IT&position=1&page=1&engine=stepmatch&search_referer=internal
 
@@ -11,14 +16,12 @@ http://www.emedcareers.com/job/partner-account-manager-959365516?src=search&tmpl
 
 http://www.justengineers.net/job/senior-cyber-security-advisor-959476250?src=search&tmpl=sem&sctr=IT&position=sponsored_1&page=1&engine=stepmatch&search_referer=external-other 
 
-Answer: [0-9]{9} - or [0-9]{x,x} if you want to define a range of characters
 
-#### Exercise 2: Extract radius from search results URL:
+### Exercise 2: Capture radius from search results URL:
 
 http://www.jobsite.co.uk/vacancies?search_type=quick&query=java&location=&fromTypeahead=0&jobTitle-input=&location-input=&radius=30
 
 http://www.justengineers.net/vacancies?search_type=quick&query=&location=&jobTitle-input=&location-input=&radius=50 
 
 http://www.cityjobs.com/vacancies?search_type=quick&query=&location=&jobTitle-input=&location-input=&radius=10 
-                                                                                                     
-Answer: radius=[0-9]{2}
+                                                                                                    
